@@ -1,19 +1,28 @@
 h3 {
     text-align: center;
-    font-size: 30px;
-    color: #2F1B25
+    font-size: 50px;
+    color: #2F1B25;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-stretch: expanded;
+    letter-spacing: -2px;
 }
 body {
     background-color: #FCAB64
 }
 p {
-    color: #4E3822
+    color: #4E3822;
+    text-align: center;
+    letter-spacing: -0.8px;
 }
 ul {
-    color: #4E3822
+    color: #4E3822;
+    margin-left: 15%;
+    letter-spacing: -1px;
 }
 li {
     color: #A15E49;
+    letter-spacing: -1px;
 }
 
 #foto {
@@ -21,4 +30,6 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-style: dotted;
+    border-color: #2F1B25;
 }
