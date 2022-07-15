@@ -13,7 +13,7 @@ body {
 p {
     font-family: 'Courier New', Courier, monospace;
     color: #4E3822;
-    text-align: center;
+    text-align: left;
     letter-spacing: -0.8px;
 }
 ul {
@@ -28,11 +28,28 @@ li {
     letter-spacing: -1px;
 }
 
-#foto {
+ul li:nth-child(odd){
+    background-color: #4E3822;
+}
+
+#foto{
     border-radius: 100%;
-    display: block;
+    /* display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
     border-style: dotted;
     border-color: #2F1B25;
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-color: #A15E49;
+}
+
+#description{
+    padding: 20px 0px 120px 70px;
+}
+
+#fotodiv {
+    padding: 20px 50px 120px 50px;
+
 }
